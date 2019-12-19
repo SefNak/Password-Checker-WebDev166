@@ -185,22 +185,22 @@
       </div>
       <div class="divider-custom-line"></div>
     </div>
-
+    <!-- Checker Section Button -->
+    <div class="text-center mt-4">
+      <text class=" btn-xl">
+        <i class="fa fa-lock"></i>
+        Check My Password!
+      </text>
     <!-- Checker Section Content -->
     <div class="row">
-      <label><input type="checkbox" id="hiddenPass" name="passHidden"
+      <label><input type="checkbox" id="hiddenPass" onchange="showhidePassword" name="passHidden"
                     checked> Hide my password</label>
     </div>
     <div>
-      <input  class ="form-control" id="search-bar" type="text" placeholder="***********" required="required" data-validation-required-message="Please enter your password." aria-invalid="false" style = "text-align: center">
+      <input  class ="form-control" id="search-bar" type="password" placeholder="***********" required="required" data-validation-required-message="Please enter your password." aria-invalid="false" style = "text-align: center">
       <div id="search-results"></div>
     </div>
-    <!-- Checker Section Button -->
-    <div class="text-center mt-4">
-      <button class="btn btn-xl btn-outline-light" onclick="zxcvbn()">
-        <i class="fa fa-lock"></i>
-        Check My Password!
-      </button>
+
     </div>
 
   </div>
@@ -573,14 +573,14 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/freelancer.min.js"></script>
-
+<!-- API Scripts from Dropbox Zxcvbn Password Checker -->
 <script type="text/javascript" src="./jquery.js">
 </script>
 <script type="text/javascript" src="./mustache.js">
 </script>
 <script data-main="demo" src="./require.js">
 </script>
-<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="demo" src="./demo.js"></script>
+<script type="text/javascript" charset="utf-8" async="" data-requisecontext="_" data-requiremodule="demo" src="./demo.js"></script>
 
 </body>
 
