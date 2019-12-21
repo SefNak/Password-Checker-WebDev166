@@ -46,6 +46,7 @@
 					//normal
 					$(progressBar).removeClass(settings.allProgressBarClasses).addClass(settings.progressBarClass1);
 					$(progressBar).html(settings.ratings[1]);
+
 				}
 				else if (result.score == 2) {
 					//medium
