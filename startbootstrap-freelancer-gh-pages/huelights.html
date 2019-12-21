@@ -28,9 +28,14 @@
         background-color: #28A745;
         color: white;
     }
-    .flex-column {
+    .column {
         float: left;
-        width: 25%;
+        width: 20%;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
 </style>
 
@@ -88,53 +93,65 @@
         <!-- Hue Lights Grid Items -->
         <div class="row">
             <!-- Hue Lights Item 1 -->
-            <div class="flex-column">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="column">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#hue-lightModal1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" ><img src="poor.png" height="214.5px" width="313.5px"/>
+                    <img class="img-fluid" ><img src="poor.png" height="150.15px" width="219.45px"/>
                 </div>
             </div>
 
             <!-- Hue Lights Item 2 -->
-            <div class="flex-column">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+            <div class="column">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#hue-lightModal2">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" ><img src="bad.png" height="214.5px" width="313.5px"/>
+                    <img class="img-fluid" ><img src="bad.png" height="150.15px" width="219.45px"/>
                 </div>
             </div>
 
             <!-- Hue Lights Item 3 -->
-            <div class="flex-column">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+            <div class="column">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#hue-lightModal3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" ><img src="Good.jpg" height="214.5px" width="313.5px"/>
+                    <img class="img-fluid" ><img src="Good.jpg" height="150.15px" width="219.45px"/>
                 </div>
             </div>
 
             <!-- Hue Lights Item 4 -->
-            <div class="flex-column">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+            <div class="column">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#hue-lightModal4">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white">
                             <i class="fas fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img class="img-fluid" ><img src="excellent.png" height="214.5px" width="313.5px"/>
+                    <img class="img-fluid" ><img src="excellent.png" height="150.15px" width="219.45px"/>
                 </div>
             </div>
+
+        <!-- Hue Lights Item 5 -->
+        <div class="column">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#hue-lightModal5">
+                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white">
+                        <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img class="img-fluid" ><img src="verystrong.png" height="150.15px" width="219.45px"/>
+            </div>
         </div>
+    </div> s
         <!-- /.row -->
 
     </div>
@@ -188,7 +205,7 @@
 <!-- Hue Light Modals -->
 
 <!-- Hue Light Modal 1 -->
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="hue-lightModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #28A745">
@@ -201,7 +218,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <!-- Hue Light  Modal - Title -->
-                            <h2 class="portfolio-modal-title text-danger text-uppercase mb-0">Poor</h2>
+                            <h2 style="color: darkred" class="portfolio-modal-title text-uppercase mb-0">Very Weak</h2>
                             <!-- Icon Divider -->
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
@@ -213,7 +230,7 @@
                             <!-- Hue Light Modal - Image -->
                             <img class="img-fluid rounded mb-5" src="poor.png" alt="">
                             <!-- Hue Light Modal - Text -->
-                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 1/4 and therefore was classed as a 'poor' password.</p>
+                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 0/4 and therefore was classed as a 'Very Weak' password.</p>
                             <button class="btn btn-success" href="#" data-dismiss="modal">
                                 <i class="fas fa-times fa-fw"></i>
                                 Close Window
@@ -227,7 +244,7 @@
 </div>
 
 <!-- Hue Light Modal 2 -->
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="hue-lightModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:  #28A745">
@@ -240,7 +257,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <!-- Hue Light Modal - Title -->
-                            <h2 class="portfolio-modal-title text-danger text-uppercase mb-0">Bad</h2>
+                            <h2 class="portfolio-modal-title text-danger text-uppercase mb-0">Weak</h2>
                             <!-- Icon Divider -->
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
@@ -252,7 +269,7 @@
                             <!-- Hue Light Modal - Image -->
                             <img class="img-fluid rounded mb-5" src="bad.png" alt="">
                             <!-- Hue Light Modal - Text -->
-                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 2/4 and therefore was classed as a 'bad' password.</p>
+                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 1/4 and therefore was classed as a 'Weak' password.</p>
                             <button class="btn btn-success" href="#" data-dismiss="modal">
                                 <i class="fas fa-times fa-fw"></i>
                                 Close Window
@@ -266,7 +283,7 @@
 </div>
 
 <!-- Hue Light Modal 3 -->
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="hue-lightModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #28A745">
@@ -279,19 +296,19 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <!-- Hue Light Modal - Title -->
-                            <h2 class="portfolio-modal-title text-success text-uppercase mb-0">Good</h2>
+                            <h2 style="color: yellow" class="portfolio-modal-title text-uppercase mb-0">Ok</h2>
                             <!-- Icon Divider -->
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
                                 <div class="divider-custom-icon">
-                                    <i class="fas fa-lock"></i>
+                                    <i class="fas fa-smile"></i>
                                 </div>
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Hue Light Modal - Image -->
                             <img class="img-fluid rounded mb-5" src="Good.jpg" alt="">
                             <!-- Hue Light Modal - Text -->
-                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 3/4 and therefore was classed as a 'good' password.</p>
+                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 2/4 and therefore was classed as an 'Ok' password.</p>
                             <button class="btn btn-success" href="#" data-dismiss="modal">
                                 <i class="fas fa-times fa-fw"></i>
                                 Close Window
@@ -304,8 +321,49 @@
     </div>
 </div>
 
-<!-- Hue Light Modal 4 -->
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <!-- Hue Light Modal 4 -->
+    <div class="portfolio-modal modal fade" id="hue-lightModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #28A745">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Hue Light Modal - Title -->
+                                <h2 class="portfolio-modal-title text-success text-uppercase mb-0">Strong</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-lock"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Hue Light Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="excellent.png" alt="">
+                                <!-- Hue Light Modal - Text -->
+                                <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 3/4 and therefore was classed as a 'Strong' password.</p>
+                                <button class="btn btn-success" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Close Window
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Hue Light Modal 5 -->
+<div class="portfolio-modal modal fade" id="hue-lightModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
         <div class="modal-content">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #28A745">
@@ -318,7 +376,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <!-- Hue Light Modal - Title -->
-                            <h2 class="portfolio-modal-title text-success text-uppercase mb-0">Excellent</h2>
+                            <h2 style="color: darkcyan" class="portfolio-modal-title text-uppercase mb-0">Very Strong</h2>
                             <!-- Icon Divider -->
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
@@ -328,9 +386,9 @@
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Hue Light Modal - Image -->
-                            <img class="img-fluid rounded mb-5" src="excellent.png" alt="">
+                            <img class="img-fluid rounded mb-5" src="verystrong.png" alt="">
                             <!-- Hue Light Modal - Text -->
-                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 4/4 and therefore was classed as an 'excellent' password.</p>
+                            <p class="mb-5">This colour displayed on the Hue Lights signifies that the entered password received a score of 4/4 and therefore was classed as a 'Very Strong' password.</p>
                             <button class="btn btn-success" href="#" data-dismiss="modal">
                                 <i class="fas fa-times fa-fw"></i>
                                 Close Window

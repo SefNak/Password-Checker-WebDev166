@@ -85,16 +85,35 @@
             </text>
             <!-- Checker Section Content -->
             <div class="row">
-                <label><input type="checkbox" id="hiddenPass" onchange="showhidePassword" name="passHidden"
+                <label><input type="checkbox" id="hiddenPass" onclick="showhidePassword()" name="passHidden"
                               checked> Hide my password</label>
             </div>
             <div>
-                <input  class ="form-control" id="search-bar" type="password" placeholder="***********" required="required" data-validation-required-message="Please enter your password." aria-invalid="false" style = "text-align: center">
+                <div class="well">
+
+                    <div class="form-group">
+
+                        <input type="password" class="form-control" id="search-bar" placeholder="Password" style="text-align: center">
+                    </div>
+                    <div class="progress">
+                        <div id="StrengthProgressBar" class="progress-bar"></div>
+                    </div>
+
+                </div>
+                <br><br>
                 <div id="search-results"></div>
-            </div>
-
+                <!-- Script for hiding/showing password in input box -->
+                <script>
+                    function showhidePassword() {
+                        var x = document.getElementById("search-bar");
+                        if (x.type === "password") {
+                            x.type = "text";
+                        } else {
+                            x.type = "password";
+                        }
+                    }
+                </script>
         </div>
-
     </div>
 </section>
 
@@ -164,6 +183,31 @@
 <script data-main="demo" src="./require.js">
 </script>
 <script type="text/javascript" charset="utf-8" async="" data-requisecontext="_" data-requiremodule="demo" src="./demo.js"></script>
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<!--Boostrap-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<!-- zxcvbn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/1.0/zxcvbn.min.js"></script>
+<!--strength meter-->
+<script type="text/javascript" src="zxcvbn-bootstrap-strength-meter.js"></script>
+<!-- Hook up strength bar on page load-->
+<script type="text/javascript">
+    $(document).ready(function()
+    {
+        $("#StrengthProgressBar").zxcvbnProgressBar({ passwordInput: "#search-bar" });
+    });
+</script>
+
+
+
+
+
 
 </body>
 
