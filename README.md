@@ -4,6 +4,7 @@ This web application is a password meter/checker application for users to test h
 This web application is stylised with well laid out diagrams and simple navigation.
 
 Key Features
+
 •	Test passwords
 •	Create new passwords
 •	Receive advice and feedback to improve security 
