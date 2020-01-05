@@ -5,10 +5,14 @@ This web application is stylised with well laid out diagrams and simple navigati
 
 Key Features
 
-•	Test passwords
-•	Create new passwords
-•	Receive advice and feedback to improve security 
+•	Test the strength of passwords.
+
+•	Create new passwords.
+
+•	Receive advice and feedback to improve security.
+
 •	Visual representation of ‘score’ using ‘smart lights’ and on-screen displays.
+
 •	Simple navigation and easy to understand information.
 
 
