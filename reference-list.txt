@@ -1,0 +1,9 @@
+Reference List:
+
+https://github.com/smycynek/hue-console
+
+https://developers.meethue.com/develop/hue-api/lights-api/
+
+https://themes.getbootstrap.com/
+
+https://www.w3schools.com/
