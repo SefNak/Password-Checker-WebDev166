@@ -37,11 +37,11 @@ Screenshot evidence of Web App pages on Internet Explorer 7:
 
 <a href="https://ibb.co/jDDJSvq"><img src="https://i.ibb.co/L11N3zB/efef.png" alt="efef" border="0"></a>
 
-##Checker:
+## Checker:
 
 <a href="https://ibb.co/JqF6kQd"><img src="https://i.ibb.co/42gvNdf/fwqf.png" alt="fwqf" border="0"></a>
 
-##About:
+## About:
 
 <a href="https://ibb.co/gJ4dtFb"><img src="https://i.ibb.co/bXbFNRj/qf.png" alt="qf" border="0"></a>
 
@@ -62,8 +62,8 @@ https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estima
 ## Password entropy API for password meter bar:
 https://martinw.net/zxcvbn-bootstrap-strength-meter/
 
-## ## Philips Hue Custom API:
+## Philips Hue Custom API:
 https://github.com/smycynek/hue-console
 
-Philips Hue Official API:
+## Philips Hue Official API:
 https://developers.meethue.com/develop/hue-api/lights-api/
