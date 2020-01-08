@@ -16,3 +16,51 @@ Key Features
 •	Simple navigation and easy to understand information.
 
 
+Web Application working on Google Chrome:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KW1eX1J6sN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Web Application working on Microsoft Edge:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8IvSYOa6NwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+Screenshot evidence of Web App pages on Internet Explorer 7:
+
+Home:
+
+<a href="https://ibb.co/XYzhwvv"><img src="https://i.ibb.co/xFMp4RR/Screenshot-IE7-Home-Screen.png" alt="Screenshot-IE7-Home-Screen" border="0"></a>
+
+Hue Lights:
+
+<a href="https://ibb.co/jDDJSvq"><img src="https://i.ibb.co/L11N3zB/efef.png" alt="efef" border="0"></a>
+
+Checker:
+
+<a href="https://ibb.co/JqF6kQd"><img src="https://i.ibb.co/42gvNdf/fwqf.png" alt="fwqf" border="0"></a>
+
+About:
+
+<a href="https://ibb.co/gJ4dtFb"><img src="https://i.ibb.co/bXbFNRj/qf.png" alt="qf" border="0"></a>
+
+
+Resource References:
+
+Web page template:
+https://themes.getbootstrap.com/
+
+General aid with HTML and JS:
+https://www.w3schools.com/
+
+Password entropy API for scoring:
+https://github.com/dropbox/zxcvbn
+https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/
+
+Password entropy API for password meter bar:
+https://martinw.net/zxcvbn-bootstrap-strength-meter/
+
+Philips Hue Custom API:
+https://github.com/smycynek/hue-console
+
+Philips Hue Official API:
+https://developers.meethue.com/develop/hue-api/lights-api/
