@@ -1,0 +1,17 @@
+Reference List:
+
+https://github.com/smycynek/hue-console
+
+https://developers.meethue.com/develop/hue-api/lights-api/
+
+https://themes.getbootstrap.com/
+
+https://www.w3schools.com/
+
+https://github.com/dropbox/zxcvbn
+
+https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/
+
+https://martinw.net/zxcvbn-bootstrap-strength-meter/
+
+
